@@ -29,8 +29,9 @@ PRODUCT_NAME := rr_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
-# RR Face Unlock
+# RR Stuffs
 TARGET_FACE_UNLOCK_SUPPORTED := true
+export RR_BUILDTYPE := Official
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
