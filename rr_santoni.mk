@@ -26,6 +26,9 @@ PRODUCT_NAME := rr_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Launcher
+TARGET_LAUNCHER := lawnchair
+
 # RR Stuffs
 TARGET_FACE_UNLOCK_SUPPORTED := true
 export RR_BUILDTYPE := Official
